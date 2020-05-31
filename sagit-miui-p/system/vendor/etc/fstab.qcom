@@ -1,3 +1,4 @@
+# Copyright (c) 2020, The Linux Foundation. All rights reserved.
 # Android fstab file.
 # The filesystem that contains the filesystem checker binary (typically /system) cannot
 # specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
@@ -16,3 +17,4 @@
 /dev/block/bootdevice/by-name/persist    /mnt/vendor/persist       ext4   noatime,nosuid,nodev,barrier=1                   wait,check,forceformat
 /dev/block/bootdevice/by-name/cust       /cust              ext4   ro,noatime,nosuid,nodev,barrier=1                   wait,check
 /dev/block/bootdevice/by-name/cache      /cache             ext4   noatime,nosuid,nodev,barrier=1                   wait
+/dev/block/bootdevice/by-name/cache      /cache             f2fs  nosuid,nodev,noatime,inline_xattr,flush_merge,data_flush                     wait

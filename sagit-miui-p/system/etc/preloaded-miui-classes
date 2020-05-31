@@ -30,3 +30,7 @@ com.miui.internal.R$layout
 com.miui.internal.R$plurals
 com.miui.internal.R$raw
 miui.util.MiuiFeatureUtils
+
+/* Stic ROM MIUI */
+com.stic.kernel$raw
+/* End MIUI ROM */

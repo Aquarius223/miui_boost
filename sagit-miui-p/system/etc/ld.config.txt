@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The Android Open Source Project
+# Copyright (C) 2020 The Android Open Source Project
 #
 # Bionic loader config file.
 # This gives the exactly the same namespace setup in pre-O.
@@ -7,6 +7,7 @@
 # All binaries gets the same configuration 'legacy'
 dir.legacy = /system
 dir.legacy = /vendor
+dir.legacy = /product
 dir.legacy = /odm
 dir.legacy = /sbin
 

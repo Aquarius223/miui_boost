@@ -333,5 +333,10 @@
     <!-- whether support_screen_on_delayed -->
     <bool name="support_screen_on_delayed">true</bool>
     <!-- whether support hangup while screen turnning off -->
-    <bool name="support_hangup_while_screen_off">true</bool>
+    <bool name="support_hangup_while_screen_off">true</bool> 
+    <!-- Stic MIUI ROM sagit.xml -->
+    <bool name="support_touchfeature_gamemode">true</bool>
+    <bool name="support_displayfeature_gamemode">true</bool>
+    <bool name="is_support_video_tool_box">true</bool>
+    <bool name="support_game_mi_time">true</bool>
 </features>

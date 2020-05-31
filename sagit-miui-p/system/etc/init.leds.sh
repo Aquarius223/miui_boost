@@ -1,5 +1,5 @@
 #!/vendor/bin/sh
-# Copyright (c) 2009-2015, The Linux Foundation. All rights reserved.
+# Copyright (c) 2009-2015-2020, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -27,6 +27,6 @@
 #
 
 # LED full scale current is 8mA and limit it to 2mA
-echo 64 > /sys/class/leds/button-backlight/max_brightness
-echo 64 > /sys/class/leds/button-backlight1/max_brightness
+echo 48 > /sys/class/leds/button-backlight/max_brightness
+echo 48 > /sys/class/leds/button-backlight1/max_brightness
 echo 64 > /sys/class/leds/white/max_brightness
